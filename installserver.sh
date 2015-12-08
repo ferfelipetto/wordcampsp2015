@@ -11,7 +11,7 @@ echo "# Atualizacao de pacotes"
 apt-get update -y
 
 echo "# Instalacao de EasyEngine"
-sudo echo -e "[user]\n\tname = AgiusCloud\n\temail = edison@agiuscloud.com" > ~/.gitconfig
+sudo echo -e "[user]\n\tname = dennis\n\temail = contato@seusite.me" > ~/.gitconfig
 wget -qO ee rt.cx/ee && sudo bash ee
 
 echo "# Instalacao de Servidores"
@@ -24,7 +24,7 @@ sudo mv composer.phar /usr/bin/composer
 
 echo "# Instalacao Public Key"
 mkdir ~/.ssh/
-echo "ssh-rsa AAAAB3NzaC1yc2EAAAABJQAAAQEAhNRa2H92Z80tvlVvIJz9vo3E3Q3pyjyZa4JmHTZ8pkH3SIX9E5YrE5AL7steBbn5/u7oFz0sx4iNHO5FGWmpj0E0KAp8rB5CShLabEhw2p4Rfu6NvGB5lffASsFqgR5PBrK7xKypS+TKu/UPK0YK3MnDSMwNDyifAp5LH6qJ13n7xv5s/y6aS2et5lOhV0lIiG1Q25EzOSDitZDVa4PfhzaOg1MirCgu5FH+GFWDOP5eywacWcU8PGXwlfkwm8j8GWTiKeiTGMjWUgjYMJPiFXkfMpIysfNR49h+MrXCEE2v9+GUIJJnYghFJfdBMM7VbDk4OVwDnoOgLH3fGHk9ow== key-edisoncosta" > ~/.ssh/authorized_keys
+echo "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQC1tzzR91Bbbu1nsvIXVjUiE9vtgrRv9t78swv0SMzJiawGgKRx1HdcSjSFleC3yBUXqOh/1WVWgrnjq/S3NH523rpbU4lVNJXJLDqJwy4ugeOkJbsGSiVQlp50gjClzNPYVvq9+sQjuakawAocLHLBqE14ILDFELWJod/KyHnuLTCrNf91XKNXM+6bI3VZ15GGSO4MN0Z1DSrQ/gqlrUI7rWOOlkefAHczTQAkdHbNAenz6k+2nHadlXa3t0Vyq9RCfIv+box5aa1k3Hz3PEQt5aTVLeZzn6TeicHeeYIoJzxgdpy+W+t+W9XfE/j23U/srkllMp1bqAXL54HQ/wjB dennis.sjrp@gmail.com" > ~/.ssh/authorized_keys
 
 echo "# Restart servicos"
 ee stack restart
